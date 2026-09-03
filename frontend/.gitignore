@@ -1,24 +1,126 @@
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+*.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python build / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
 # Logs
-logs
+# =========================
+logs/
 *.log
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# npm logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# =========================
+# Frontend Environment
+# =========================
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
 
-# Editor directories and files
+# =========================
+# Backend Environment
+# =========================
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# =========================
+# IDE / Editor
+# =========================
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# Uploads / Generated Files
+# =========================
+uploads/
+media/
